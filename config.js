@@ -1,3 +1,8 @@
+Phoenix.set({
+  daemon: true,
+  openAtLogin: true
+})
+
 const statusbar = {
   height: 25
 }

@@ -1,6 +1,7 @@
 const Focused = {
   screen: () => { return Screen.main().flippedFrame() },
-  window: () => { return Window.focused() }
+  window: () => { return Window.focused() },
+  space: () => { return Screen.main().currentSpace() }
 }
 const Sizes = {
   full: {
