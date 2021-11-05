@@ -1,6 +1,6 @@
 require('~/.config/phoenix/Variables/Modifiers.js')
 require('~/.config/phoenix/config.js')
-require('~/.config/phoenix/Variables/Constants.js')
+require('~/.config/phoenix/Variables/Variables.js')
 
 // Modal Tiling Window Management
 // Available Modes:
