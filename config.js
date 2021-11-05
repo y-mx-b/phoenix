@@ -8,8 +8,10 @@ const statusbar = {
 }
 
 const padding = {
-  topBottom: 8,
-  leftRight: 8,
+  top: 8,
+  bottom: 8,
+  left: 8,
+  right: 8,
   gap: 6
 }
 
