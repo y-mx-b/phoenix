@@ -1,15 +1,14 @@
 //// GRID ////
-const placeInGrid = (screen, window, grid, point) => {
+const placeInGrid = (screen, window, grid, rect) => {
   const size = getSize(screen, window, grid)
-  const x = (size.width * point.x) + padding.left + (padding.gap * point.x)
-  const y = (size.height * point.y) + statusbar.height + padding.top + (padding.gap * point.y)
-
+  const x = (size.width * rect.x) + padding.left + (padding.gap * rect.x)
+  const y = (size.height * rect.y) + statusbar.height + padding.top + (padding.gap * rect.y)
   if (window) {
     window.setFrame({
       x: x,
       y: y,
-      width: size.width,
-      height: size.height
+      width: (rect.width - 1) * (size.width + padding.gap) + size.width,
+      height: (rect.height - 1) * (size.height + padding.gap) + size.height
     })
   }
 }
