@@ -12,6 +12,7 @@ const placeInGrid = (screen, window, grid, rect) => {
     })
   }
 }
+// account for multiple displays
 const getSize = (screen, window, grid) => {
   const rows = grid.rows
   const cols = grid.cols
