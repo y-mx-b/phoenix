@@ -77,5 +77,11 @@ const keys = {
       key: 'm',
       mod: floatMod
     }
+  },
+  extra: {
+    center: {
+      key: 'c',
+      mod: floatMod
+    }
   }
 }

@@ -89,3 +89,9 @@ Key.on(keys.thirds.rightTwoThirds.key, keys.thirds.rightTwoThirds.mod,
                     { rows: 1, cols: 3 },
                     { x: 1, y: 0, width: 2, height: 1 })
 )
+
+
+//// EXTRA
+Key.on(keys.extra.center.key, keys.extra.center.mod,
+  () => center(Focused.screen(), Focused.window())
+  )
